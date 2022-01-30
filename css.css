@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #fff;
+    padding: 20px;
+}
+body{
+    background-color: #24272E;
+}
+header h1{
+    color: black;
+    text-align: center;
+}
+.score-board{
+    margin: 20px auto;
+    border: 3px solid white;
+    width: 200px;
+    color: white;
+    font-size: 40px;
+    border-radius: 4px;
+    text-align: center;
+    pad: 15px 20px;
+    position: relative;
+}
+.badges{
+    background: #E2584D;
+    color: white;
+    font-size: 13px;
+    padding: 2px 18px;
+}
+#user-label{
+    position: absolute;
+    top: 15px;
+    left: -33px;
+}
+#computer-label{
+    position: absolute;
+    top: 15px;
+    left: 170px;
+}
+.result {
+    font-size: 40px;
+}
+.result p{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+
+.img-style{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.choice{
+    display: inline-block;
+    padding: 10px;
+    margin: 0 15px;
+    border-radius: 50%;
+    transition: 0.4s all ease;
+}
+.choices{
+    text-align: center;
+    margin-top: 50px;
+}
+.choice:hover{
+    cursor: pointer;
+    background: black;
+}
+#action-message{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
